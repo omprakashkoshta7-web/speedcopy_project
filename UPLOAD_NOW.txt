@@ -1,0 +1,19 @@
+GITHUB UPLOAD - 3 STEPS
+=======================
+
+STEP 1: Open PowerShell in this folder (client-github)
+
+STEP 2: Run this command (replace YOUR_USERNAME):
+  .\upload.bat YOUR_USERNAME
+
+  Example:
+  .\upload.bat john-doe
+
+STEP 3: Wait for completion
+
+Done! Your repo will be at:
+  https://github.com/YOUR_USERNAME/speedcopy-client
+
+---
+
+If upload.bat doesn't work, use QUICK_UPLOAD.txt for manual steps.

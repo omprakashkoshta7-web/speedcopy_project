@@ -1,0 +1,43 @@
+GITHUB UPLOAD - QUICK STEPS
+============================
+
+1. Open PowerShell in client-github folder
+
+2. Run these commands one by one:
+
+git init
+git config user.name "Your Name"
+git config user.email "your@email.com"
+git remote add origin https://github.com/YOUR_USERNAME/speedcopy-client.git
+
+3. Upload Batch 1 (Config):
+git add package.json package-lock.json tsconfig.json tsconfig.app.json tsconfig.node.json vite.config.ts tailwind.config.js postcss.config.js eslint.config.js .gitignore .env.example
+git commit -m "chore: config files"
+git push -u origin main
+
+4. Upload Batch 2 (Services - 17 files):
+git add src/services/
+git commit -m "feat: services"
+git push
+
+5. Upload Batch 3 (Components - 21 files):
+git add src/components/
+git commit -m "feat: components"
+git push
+
+6. Upload Batch 4 (Pages - 30 files):
+git add src/pages/
+git commit -m "feat: pages"
+git push
+
+7. Upload Batch 5 (Rest):
+git add src/config/ src/hooks/ src/utils/ src/context/ src/assets/ src/App.tsx src/main.tsx src/index.css src/App.css
+git commit -m "feat: config and utils"
+git push
+
+8. Upload Batch 6 (Public):
+git add public/
+git commit -m "docs: public assets"
+git push
+
+DONE! Check: https://github.com/YOUR_USERNAME/speedcopy-client
