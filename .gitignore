@@ -22,13 +22,6 @@ build
 .yarn/install-state.gz
 .pnp.*
 
-# Exclude all images from public folder
-public/*.png
-public/*.jpg
-public/*.jpeg
-public/*.gif
-public/*.webp
-
 # IDE
 .vscode/
 .idea/
